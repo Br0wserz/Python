@@ -1,0 +1,4 @@
+2016-11-18 regola presente: iptables -I  INPUT --protocol tcp --dport  80 -s  192.168.13.6 -j DROP
+2016-11-18 regola assente: iptables -D  OUTPUT --protocol tcp --dport  22 -s  192.168.15.89 -j DROP
+2016-11-18 regola presente: iptables -A  INPUT --protocol tcp --dport  22 -s  192.168.15.90 -j DROP
+2016-11-18 regola assente: iptables -D  FORWARD --protocol tcp --dport  80 -s  192.168.14.0/24 -j DROP

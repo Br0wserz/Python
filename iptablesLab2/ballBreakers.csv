@@ -1,0 +1,4 @@
+ins, spammer, INPUT, 192.168.13.6, 80
+del, hacker, OUTPUT, 192.168.15.89, 22
+add, ballb, INPUT, 192.168.15.90, 22
+del, labL4, FORWARD, 192.168.14.0/24, 80

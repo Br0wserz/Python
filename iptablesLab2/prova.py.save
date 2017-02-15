@@ -1,0 +1,14 @@
+#!/usr/bin/python2.7
+
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument('-f', action='store', dest='filerule',
+                    help='choose name file.csv', default=False)
+
+results = parser.parse_args()
+if results == "False":
+	print "view"
+else:
+	print results.filerule
